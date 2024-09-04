@@ -1,150 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Program Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Beranda</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.header {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 700;
+    float: left;
+    font-family: courier;
+    color: white;
+    text-decoration: none;
+    cursor: no-drop;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 18px 15px 18px;
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+nav ul li a:hover{
+    color: lightblue;
+    transition: all .3s ease-in-out;
+}
+.active{
+    background-color: lightsteelblue;
+    color: black;
+    border: #22092C solid 1px;
+}
+
+.active:hover{
+    color: black !important;
+}
+
+        
+        .hero {
+            background-image: url(img/bali.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 60px 20px;
+            text-align: center;
+            color: rgb(234, 234, 234);
+            text-shadow: 5px 5px 5px #333;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        .content {
+            padding: 87px;
+            text-align: center;
+        }
+
+        .content h2 {
+            margin-top: 0;
+        }
+
+        .footer {
+      border-top: 1px solid #434343;
+      display:flex;
+      flex-direction:column; 
+      justify-content:space-between;
+      text-align: center;
+      padding: 5px;
+      background-color: black;
+      color: white;
+    } 
+    </style>
 </head>
 <body>
     <nav>
-        <div class="container">
+        <div class="header">
             <div class="logo"><a href=''>InfoWisata</a></div>
             <div class="menu">
                 <ul>
-                    <li><a href="" target="_blank">Beranda</a></li>
-                    <li><a href="#tentang">Tentang</a></li>
-                    <li><a href="#fotowisata">Foto Wisata</a></li>
-                    <li><a href="#jeniswisata">Jenis Wisata</a></li>
-                    <li><a href="#sejarah">Sejarah</a></li>
-                    <li><a href="#testimoni">Testimoni</a></li>
+                    <li><a href="beranda.html" class="active">Beranda</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                    <li><a href="fotowisata.html">Foto Wisata</a></li>
+                    <li><a href="jeniswisata.html">Jenis Wisata</a></li>
+                    <li><a href="sejarahwisata.html">Sejarah</a></li>
+                    <li><a href="testimoni.html">Testimoni</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="wrapper">
-        <!-- beranda -->
-        <section id="beranda">
-            <div class="hero">
-                <h1>Welcome To bali</h1>
-                <p>Explorasi bali, Temukan surga yang tersembunyi</p>
-            </div>
-        
-            <div class="content">
-                <h2>Informasi Terbaru</h2>
-                <p>Selamat Datang Di Beranda Kami<br>"Jelajahi keindahan tersembunyi yang baru ditemukan di Bali. Dapatkan tips perjalanan, panduan destinasi, dan penawaran eksklusif untuk liburan impian Anda."</p>
-            </div>
-        </section>
-
-        <!-- tentang -->
-        <section id="tentang">
-            
-        </section>
-
-        <!-- foto wisata -->
-        <section id="fotowisata">
-
-        </section>
-
-        <!-- jenis wisata -->
-        <section id="jeniswisata">
-
-        </section>
-
-        <!-- sejarah -->
-        <section id="sejarah">
-
-        </section>
-        <!-- testimoni -->
-        <section id="testimoni">
-            <nav>
-                <div class="container">
-                    <div class="logo"><a href=''>InfoWisata</a></div>
-                    <div class="menu">
-                        <ul>
-                            <li><a href="" target="_blank">Beranda</a></li>
-                            <li><a href="#tentang">Tentang</a></li>
-                            <li><a href="#fotowisata">Foto Wisata</a></li>
-                            <li><a href="#jeniswisata">Jenis Wisata</a></li>
-                            <li><a href="#sejarah">Sejarah</a></li>
-                            <li><a href="#testimoni">Testimoni</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-    <div class="testimonials">
-      <div class="inner">
-        <h1>Testimonials</h1>
-        <div class="border"></div>
-        </div>
-      <div class="fotowisata">
-        <img src="fotoa111.jpg" alt="">
-      </div>
-        <div class="row">
-          <div class="col">
-            <div class="testimonial">
-              <img src="#" alt="">
-              <div class="name">Ake widyastsmo</div>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-
-              <p>
-                Monumen dengan gaya arsitektur yang mengagumkan. Eksterior bangunan dipenuhi detail ornamen tradisional Bali yang apik difoto dari berbagai sudut. Didalam terdapat diorama-diorama yang menggambarkan perjalanan sejarah serta perjuangan rakyat Bali. Anda dapat melihat lansekap provinsi Bali membentang hingga cakrawala dari puncak monumen. Diluar, banyak masyarakat memanfaatkan taman publik dan lapangan-lapangan yang mengelilingi monumen untuk berolahraga dari jogging hingga sepakbola.
-              </p>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="testimonial">
-              <img src="#" alt="">
-              <div class="name">Full name</div>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-
-              <p>
-               isi komentar
-              </p>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="testimonial">
-              <img src="#" alt="">
-              <div class="name">Full name</div>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-
-              <p>
-                isi komentar
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="hero">
+        <h1>Welcome To bali</h1>
+        <p>Explorasi bali, Temukan surga yang tersembunyi</p>
     </div>
 
-  </body>
-</html>
-
-        </section>
+    <div class="content">
+        <h2>Informasi Terbaru</h2>
+        <p>Selamat Datang Di Beranda Kami<br>"Jelajahi keindahan tersembunyi yang baru ditemukan di Bali. Dapatkan tips perjalanan, panduan destinasi, dan penawaran eksklusif untuk liburan impian Anda."</p>
     </div>
-    <footer>
-        <p>copyright</p>
-    </footer>
+
+    <div class="footer">
+        <p>Hak Cipta ©  2024. Kelompok 4.</p>
+    </div>
 </body>
 </html>
