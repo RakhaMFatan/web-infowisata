@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <title>Testimoni</title>
+  <style>
+    *{
+      margin: 0;
+      padding-top: 0;
+      font-family: "montserrat",sans-serif;
+    }
+
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+.header {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+  
+}
+
+.logo a {
+  font-size: 50px;
+  font-weight: 700;
+  float: left;
+  font-family: courier;
+  color: white;
+  text-decoration: none;
+  cursor: no-drop;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #FFFFFF;
+  z-index: 1;
+  background-color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 18px 15px 18px;
+  margin: 5px 5px 5px 5px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+nav ul li a:hover{
+  color: lightblue;
+  transition: all .3s ease-in-out;
+}
+.active{
+  background-color: lightsteelblue;
+  color: black;
+  border: #22092C solid 1px;
+}
+
+.active:hover{
+  color: black !important;
+}
+
+    .container{
+      min-height: 100%;
+      
+    }
+    .testimonials{
+      padding-top: 40px;
+      background: #fff;
+      color: #434343;
+      text-align: center;
+    }
+    .inner{
+      max-width: 1200px;
+      margin: auto;
+      overflow: hidden;
+      padding: 0 20px;
+    }
+    .fotowisata img{
+      border-radius: 20px;
+      width: 800px;
+      height: 360px;
+      padding: 0;
+      margin-bottom: 100px;
+    }
+    .fotowisata p{
+      background-color: #6ab04c;
+      width: 500px;
+      text-align: center;
+      margin: 40px auto;
+      padding: 20px 0px 20px 0px;
+      border-radius: 30px;
+      font-weight: bold;
+      color: black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 30px;
+      box-shadow:0 7px 15px 0 rgb(0, 0, 0);
+    }
+    .fotowisata p:hover{
+      background-color: #6ab04c;
+      width: 400px;
+      text-align: center;
+      margin: 40px auto;
+      padding: 20px 0px 20px 0px;
+      border-radius: 30px;
+      font-weight: bold;
+      color: black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 25px;
+      transition: all .7s ease-in-out;
+    }
+  
+    .border{
+      width: 200px;
+      height: 5px;
+      background: #6ab04c;
+      margin: 26px auto;
+    }
+  
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0 100px;
+    }
+    .col{
+      flex: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      padding: 15px;
+    }
+    .testimonial{
+      background: rgba(223, 223, 223, 0.712);
+      padding: 30px;
+      border-radius: 30px;
+    }
+    .testimonial img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    .name{
+      font-size: 20px;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+    .stars{
+      color: #6ab04c;
+      margin-bottom: 20px;
+    }
+    p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    }
+    .footer {
+    border-top: 1px solid #434343;
+    display:flex;
+    flex-direction:column; 
+    justify-content:space-between;
+    text-align: center;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    } 
+
+  </style>
+<body>
+  <nav>
+    <div class="header">
+        <div class="logo"><a href=''>InfoWisata</a></div>
+        <div class="menu">
+            <ul>
+                <li><a href="beranda.html">Beranda</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="fotowisata.html">Foto Wisata</a></li>
+                <li><a href="jeniswisata.html">Jenis Wisata</a></li>
+                <li><a href="sejarahwisata.html">Sejarah</a></li>
+                <li><a href="testimoni.html" class="active">Testimoni</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="testimonials">
+      <div class="inner">
+        <h1>Testimonial</h1>
+        <div class="border"></div>
+        </div>
+        <!-- Monumen Bajra-->
+      <div class="fotowisata">
+        <p>MONUMEN BAJRA SANDHI</p>
+        <img src="img/fotoa111.jpg" alt="">
+        
+      </div>
+        <div class="row">
+          <div class="col">
+            <div class="testimonial">
+              <img src="img/testifoto1.png" alt="">
+              <div class="name">Ake widyastsmo</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+              <p>
+                Monumen dengan gaya arsitektur yang mengagumkan. Eksterior bangunan dipenuhi detail ornamen tradisional Bali yang apik difoto dari berbagai sudut. Didalam terdapat diorama-diorama yang menggambarkan perjalanan sejarah serta perjuangan rakyat Bali. Anda dapat melihat lansekap provinsi Bali membentang hingga cakrawala dari puncak monumen. Diluar, banyak masyarakat memanfaatkan taman publik dan lapangan-lapangan yang mengelilingi monumen untuk berolahraga dari jogging hingga sepakbola.
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="img/testifoto2.png" alt="">
+              <div class="name">Rosalia Wanda</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <p>
+                di dalam monumen kurang cocok untuk berfoto krna sangat penuh pngunjung.. lebih nyaman dari luar dn di area taman.
+                area taman cocok untuk piknik sore dan jogging.
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="img/testifoto3.png" alt="">
+              <div class="name">agneshia charista</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+              <p>
+                berkali kali kesini tapi cuma diluar aja jogging . baru kali ini masuk kedalam naik sampai atas😁 di dalamnya museum tentang perjuangan rakyat Bali. ada tangga cukup tinggi untuk sampai ke menara atas, bisa melihat denpasar dari ketinggian 45m
+              </p>
+            </div>
+          </div>
+        </div>
+      
+
+      <!-- Pantai Kelingking-->
+
+      <div class="fotowisata">
+        <p>PANTAI KELINGKING</p>
+        <img src="img/fotoa222.png" alt="">
+        
+      </div>
+        <div class="row">
+          <div class="col">
+            <div class="testimonial">
+              <img src="img/testifoto4.png" alt="">
+              <div class="name">Cinthya Megapertiwi</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+              <p>
+                Selama 1 day trip ini menurutku paling terbaik pemandangannya. Semua bagus tapi Kelingking paling bagus. Worth it banget meskipun harus nyebrang pulau dan naik mobil dengan track jalanan yg cukup terjal dan sempit. Kalian harus banget ke Kelingking Beach!!!
+
+                Salut untuk warga lokal Bali yg selalu menjaga alam dan membuat destinasi wisata nya mudah diakses. Gak heran Bali selalu punya tempat tersendiri di hati tiap orang yang pernah dan belum pernah kemari.
+
+                Tapi worry juga lihat turis lokal/ internasional yg nekat naik motor di Nusa Penida. Menurutku itu cukup berbahaya. Info dari driver kami banyak turis internasional yg meninggal jatuh ke tebing saat mengendarai motor. Mungkin karena mereka tidak terbiasa mengendarai kendaraan di medan yg sangat terjal dan berbahaya. So beware ya guys, lebih disarankan ikut trip saja karena ada tour guide yg memang mengenal jalanan dan tempat disana
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="img/testifoto5.png" alt="">
+              <div class="name">Medhy Zya Family</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <p>
+                View nya sangat indah jika ingin lebih dekat disediakan tangga turun ke bawah
+                Hanya bayar parkir 5.000
+                Banyak pengunjung WNA
+                Cuaca sangat terik
+                Harga ice kiko 10.000/pcs mungkin karena akses kesini yang jauh jadi harga makanan lumayan mahal
+                Hati hati disini banyak monyet nya
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="img/testifoto6.png" alt="">
+              <div class="name">kudu iso</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+              <p>
+                Kelingking Beach merupakan salah satu pantai di nusa penida yang sangat terkenal dan viral. Disini sangat panas jadi persiapkan sunscreen. Kelingking Beach ini banyak warung pinggir pantai jadi tidak bingung untuk cari makanan dan minuman. Untuk kendaraan banyak sekali kantong parkir jadi tidak perlu kwatir memarkirkan kendaraan. Kelingking Beach sangat indah apalagi ketika sunset.
+              </p>
+            </div>
+          </div>
+        </div>
+      
+      <!-- Pantai Pandawa -->
+      <div class="fotowisata">
+        <p>PAINTAI PANDAWA</p>
+        <img src="img/fotoa333.jpeg" alt="">
+        
+      </div>
+        <div class="row">
+          <div class="col">
+            <div class="testimonial">
+              <img src="img/testifoto7.png" alt="">
+              <div class="name">Siu Lin Na</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+              <p>
+                Pantainya sangat bagus. Banyak tebing-tebing yang menjulang tinggi bagus untuk spot foto, Tebing-tebingnya seperti yang di GWK keren 👍.
+                Garis pantainya panjang. Kondisinya sangat bersih, rapi dan tertata. Tempat parkir banyak dan luas. Tiket masuknya sendiri terjangkau. HTM per orang Rp. 8000,- parkir Rp. 5000,-
+                Disediakan toilet bayar Rp. 2000,- Ada penjual-penjual makanan & sovenir.
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="img/testifoto8.png" alt="">
+              <div class="name">Nurtjahja Juniarsa</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <p>
+                Pantai yang sangat bagus sekali, awal masuk pantai, pemandangan sudah sangat indah dan menajubkan, karena dikelilingi tebing kapur, Dipantai nya memiliki pasir putih yang halus. air laut yang jernih, sangat baik untuk berenang, suasana tenang. Banyak penjual  makanan, sering diadakan pagelaran budaya Bali. Banyak fasilitas toilet juga, Sangat baik, jika dikunjungi keluarga atau rombongan
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="img/testifoto9.png" alt="">
+              <div class="name">Umar Azka</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+              <p>
+                Akses jalannya bagus dan mudah dijangkau. pemandangannya luar biasa dengan tebing batunya dan ombak khas laut selatan. luarbiasa
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Purisaren -->
+        <div class="fotowisata">
+          <p>MONUMEN BAJRA SANDHI</p>
+          <img src="img/fotoa444.jpg" alt="">
+          
+        </div>
+          <div class="row">
+            <div class="col">
+              <div class="testimonial">
+                <img src="img/testifoto10.png" alt="">
+                <div class="name">tak</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+  
+                <p>
+                  우붓 왕궁에 며칠에 걸쳐 로열 패밀리 장례식 준비를 지켜봤네요. 일요일이 장례식인데 흔한 경험은 아닐 것 같아요.
+                </p>
+              </div>
+            </div>
+  
+            <div class="col">
+              <div class="testimonial">
+                <img src="img/testifoto11.png" alt="">
+                <div class="name">Prusias</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+  
+                <p>
+                  Tanpa biaya
+Senang menghabiskan waktu selama beberapa menit
+Area yang terawat dan hijau
+Tidak banyak yang bisa dilihat, tidak ada yang istimewa, areanya tidak luas
+5 Bintang: Sungguh istimewa, Anda harus mencobanya
+4 Bintang: Enak, Anda harus mencobanya
+3 Bintang: Tidak ada yang istimewa, Anda bisa mencobanya
+2 Bintang: Coba hanya jika Anda tidak punya alternatif
+1 Bintang: Buruk, jangan repot-repot mencoba
+                </p>
+              </div>
+            </div>
+  
+            <div class="col">
+              <div class="testimonial">
+                <img src="img/testifoto12.png" alt="">
+                <div class="name">Mahendra Datta</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+  
+                <p>
+                  Tempat bagus untuk jalan2 gratis karena didepan tempat utk belanja souvenir & nongkrong dicafe
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+    
+
+    <div class="footer">
+      <p>Hak Cipta ©  2024. Kelompok 4.</p>
+    </div>
+
+  </body>
+  
+</html>

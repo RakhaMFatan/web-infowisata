@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenis Wisata</title>
+    <style>
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.header {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 700;
+    float: left;
+    font-family: courier;
+    color: white;
+    text-decoration: none;
+    cursor: no-drop;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 18px 15px 18px;
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+nav ul li a:hover{
+    color: lightblue;
+    transition: all .3s ease-in-out;
+}
+.active{
+    background-color: lightsteelblue;
+    color: black;
+    border: #22092C solid 1px;
+}
+
+.active:hover{
+    color: black !important;
+}
+.border{
+      width: 200px;
+      height: 5px;
+      background: #6ab04c;
+      margin: 26px auto;
+    }
+
+
+    .content{
+        min-height: 600px;
+        overflow: auto;
+        padding: 0 110px;
+    }
+    .content h2{
+        color: black;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .content h3 p{
+        color: rgb(12, 12, 12);
+        padding-bottom: 5px;
+        margin-bottom: 50px;
+    }
+    .footer {
+        border-top: 1px solid #434343;
+        display:flex;
+        flex-direction:column; 
+        justify-content:space-between;
+        text-align: center;
+        padding: 20px;
+        background-color: black;
+        color: white;
+      
+    } 
+    .container{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .thumbnail{
+        background-color: white;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+        width: 225px;
+        margin: 10px;
+        float: left;
+        
+    }
+    .thumbnail img{
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 13px;
+        box-shadow: 4px 7px 7px 0px #00000042;
+        
+        transition: 400ms;
+    }
+        div img:hover {
+          filter: grayscale(1);
+          transform: scale(1.03);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="header">
+            <div class="logo"><a href=''>InfoWisata</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="beranda.html">Beranda</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                    <li><a href="fotowisata.html">Foto Wisata</a></li>
+                    <li><a href="jeniswisata.html" class="active">Jenis Wisata</a></li>
+                    <li><a href="sejarahwisata.html">Sejarah</a></li>
+                    <li><a href="testimoni.html">Testimoni</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div class="content">
+            <h2>JENIS-WISATA</h2>
+            <div class="border"></div>
+            <div class="thumbnail">
+                <a href="BAJRASHANDI.html">
+                <img src="img/BAJRAAA.jpeg" alt="">
+                    <h3>BAJRA SHANDI</h3>
+                    
+                    <p>Monumen Bajra Sandhi atau disebut juga Monumen Perjuangan  <a href="">Selengkapnya...</a></p>
+            </a>
+        </div>
+            <div class="thumbnail">
+                <a href="KELINGKINGBALI.html">
+                <img src="img/kelingking.jpeg" alt="">
+                    <h3>PANTAI KELINGKING</h3>
+                    
+                    <p>Sebuah desa yang dikenal sebagai pusat seni dan budaya Bali
+                    <a href="">Selengkapnya...</a></p>
+                </a> 
+            </div>
+            <div class="thumbnail">
+                <a href="PANDAWA.html">
+                <img src="img/pandawa.jpeg" alt="">
+                    <h3>PANTAI PANDAWA</h3>
+                    
+                    <p>Pantai Pandawa adalah salah satu tempat wisata di area Kuta selatan <a href="">Selengkapnya...</a></p>
+                </a>    
+            </div>
+            <div class="thumbnail">
+                <a href="PURISAREN.html">
+                <img src="img/PURI.jpeg" alt="">
+                    <h3>PURI SAREN AGUNG</h3>
+                    
+                    <p>Sebuah desa yang dikenal sebagai pusat seni dan budaya Bali
+                    <a href="">Selengkapnya...</a></p>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Hak Cipta ©  2024. Kelompok 4.</p>
+        </div>
+    </div>
+</body> 
+</html>
