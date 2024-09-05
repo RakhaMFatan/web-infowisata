@@ -13,77 +13,100 @@
     }
 
     body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.logoheader{
+    width: 100%;
+    padding: 20px 0px;
+    margin: auto;
+    display: flex;
+    top: 0;
+    background-color: lightsteelblue;
+    background-image: url(img/bglogoheader-removebg.png);
+    background-size: 350px;
+    background-position: center;
+}
+.logoheader img{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 5px 10px 25px 5px rgb(0, 0, 0);
+    padding: 20px 50px;
+    margin: auto;
+    width: 250px;
+    height: 100px;
+}
+
 .header {
-  width: 1100px;
-  margin: auto;
-  position: relative;
-  
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    
 }
 
 .logo a {
-  font-size: 50px;
-  font-weight: 700;
-  float: left;
-  font-family: courier;
-  color: white;
-  text-decoration: none;
-  cursor: no-drop;
+    font-size: 45px;
+    font-weight: 700;
+    float: left;
+    font-family: courier;
+    color: white;
+    text-decoration: none;
+    cursor: no-drop;
 }
 
 .menu {
-  float: right;
+    float: right;
 }
 
 nav {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  line-height: 80px;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  background: #FFFFFF;
-  z-index: 1;
-  background-color: black;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 65px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    background-color: black;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 nav ul li {
-  float: left;;
+    float: left;;
 }
 
 nav ul li a {
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  padding: 15px 18px 15px 18px;
-  margin: 5px 5px 5px 5px;
-  text-decoration: none;
-  border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 14px 12px 14px;
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    border-radius: 18px;
+    font-size: 15px;
 }
 nav ul li a:hover{
-  color: lightblue;
-  transition: all .3s ease-in-out;
+    color: lightblue;
+    transition: all .3s ease-in-out;
 }
 .active{
-  background-color: lightsteelblue;
-  color: black;
-  border: #22092C solid 1px;
+    background-color: lightsteelblue;
+    color: black;
+    border: #22092C solid 1px;
 }
 
 .active:hover{
-  color: black !important;
+    color: black !important;
 }
 
     .container{
@@ -93,7 +116,7 @@ nav ul li a:hover{
     .testimonials{
       padding-top: 40px;
       background: #fff;
-      color: #434343;
+      color: black;
       text-align: center;
     }
     .inner{
@@ -121,19 +144,10 @@ nav ul li a:hover{
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size: 30px;
       box-shadow:0 7px 15px 0 rgb(0, 0, 0);
+      transition: transform .2s;
     }
     .fotowisata p:hover{
-      background-color: #6ab04c;
-      width: 400px;
-      text-align: center;
-      margin: 40px auto;
-      padding: 20px 0px 20px 0px;
-      border-radius: 30px;
-      font-weight: bold;
-      color: black;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: 25px;
-      transition: all .7s ease-in-out;
+      transform: scale(0.9);
     }
   
     .border{
@@ -191,6 +205,9 @@ nav ul li a:hover{
 
   </style>
 <body>
+  <div class="logoheader">
+    <img src="img/logo-removebg.png" alt="">
+  </div>
   <nav>
     <div class="header">
         <div class="logo"><a href=''>InfoWisata</a></div>
