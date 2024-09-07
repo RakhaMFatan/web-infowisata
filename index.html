@@ -1,108 +1,113 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beranda</title>
     <style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
 
-}
+        }
 
-.logoheader{
-    width: 100%;
-    padding: 20px 0px;
-    margin: auto;
-    display: flex;
-    top: 0;
-    background-color: lightsteelblue;
-    background-image: url(img/bglogoheader-removebg.png);
-    background-size: 350px;
-    background-position: center;
-}
-.logoheader img{
-    background-color: white;
-    border-radius: 30px;
-    box-shadow: 5px 10px 25px 5px rgb(0, 0, 0);
-    padding: 20px 50px;
-    margin: auto;
-    width: 250px;
-    height: 100px;
-}
+        .logoheader {
+            width: 100%;
+            padding: 20px 0px;
+            margin: auto;
+            display: flex;
+            top: 0;
+            background-color: lightsteelblue;
+            background-image: url(img/bglogoheader-removebg.png);
+            background-size: 350px;
+            background-position: center;
+        }
 
-.header {
-    width: 1100px;
-    margin: auto;
-    position: relative;
-    
-}
+        .logoheader img {
+            background-color: white;
+            border-radius: 30px;
+            box-shadow: 5px 10px 25px 5px rgb(0, 0, 0);
+            padding: 20px 50px;
+            margin: auto;
+            width: 250px;
+            height: 100px;
+        }
 
-.logo a {
-    font-size: 45px;
-    font-weight: 700;
-    float: left;
-    font-family: courier;
-    color: white;
-    text-decoration: none;
-    cursor: no-drop;
-}
+        .header {
+            width: 1100px;
+            margin: auto;
+            position: relative;
 
-.menu {
-    float: right;
-}
+        }
 
-nav {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    line-height: 65px;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    background: #FFFFFF;
-    background-color: black;
-}
+        .logo a {
+            font-size: 45px;
+            font-weight: 700;
+            float: left;
+            font-family: courier;
+            color: white;
+            text-decoration: none;
+            cursor: no-drop;
+        }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
+        .menu {
+            float: right;
+        }
 
-nav ul li {
-    float: left;;
-}
+        nav {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            line-height: 65px;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+            background: #FFFFFF;
+            background-color: black;
+        }
 
-nav ul li a {
-    color: white;
-    font-weight: 600;
-    text-align: center;
-    padding: 12px 14px 12px 14px;
-    margin: 5px 5px 5px 5px;
-    text-decoration: none;
-    border-radius: 18px;
-    font-size: 15px;
-}
-nav ul li a:hover{
-    color: lightblue;
-    transition: all .3s ease-in-out;
-}
-.active{
-    background-color: lightsteelblue;
-    color: black;
-    border: #22092C solid 1px;
-}
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
 
-.active:hover{
-    color: black !important;
-}
+        nav ul li {
+            float: left;
+            ;
+        }
 
-        
+        nav ul li a {
+            color: white;
+            font-weight: 600;
+            text-align: center;
+            padding: 12px 14px 12px 14px;
+            margin: 5px 5px 5px 5px;
+            text-decoration: none;
+            border-radius: 18px;
+            font-size: 15px;
+        }
+
+        nav ul li a:hover {
+            color: lightblue;
+            transition: all .3s ease-in-out;
+        }
+
+        .active {
+            background-color: lightsteelblue;
+            color: black;
+            border: #22092C solid 1px;
+        }
+
+        .active:hover {
+            color: black !important;
+        }
+
+
         .hero {
             background-image: url(img/bali.jpg);
             background-size: cover;
@@ -132,22 +137,23 @@ nav ul li a:hover{
         }
 
         .footer {
-      border-top: 1px solid #434343;
-      display:flex;
-      flex-direction:column; 
-      justify-content:space-between;
-      text-align: center;
-      padding: 5px;
-      background-color: black;
-      color: white;
-    } 
+            border-top: 1px solid #434343;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            padding: 5px;
+            background-color: black;
+            color: white;
+        }
     </style>
 </head>
+
 <body>
     <div class="logoheader">
         <img src="img/logo-removebg.png" alt="logo">
     </div>
-        
+
     <nav>
         <div class="header">
             <div class="logo"><a href=''>InfoWisata</a></div>
@@ -170,11 +176,13 @@ nav ul li a:hover{
 
     <div class="content">
         <h2>Informasi Terbaru</h2>
-        <p>Selamat Datang Di Beranda Kami<br>"Jelajahi keindahan tersembunyi yang baru ditemukan di Bali. Dapatkan tips perjalanan, panduan destinasi, dan penawaran eksklusif untuk liburan impian Anda."</p>
+        <p>Selamat Datang Di Beranda Kami<br>"Jelajahi keindahan tersembunyi yang baru ditemukan di Bali. Dapatkan tips
+            perjalanan, panduan destinasi, dan penawaran eksklusif untuk liburan impian Anda."</p>
     </div>
 
     <div class="footer">
-        <p>Hak Cipta ©  2024. Kelompok 4.</p>
+        <p>Hak Cipta © 2024. Kelompok 4.</p>
     </div>
 </body>
+
 </html>

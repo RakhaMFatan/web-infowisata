@@ -1,3 +1,4 @@
+/*BagianDetail*/
 .detail-container h1{
     color: #070707;
     border-bottom: 2px solid #0a0a0a;
@@ -9,6 +10,7 @@
     width: 800px;
 }
 
+/*Footer*/
 .footer {
     border-top: 1px solid #434343;
     display:flex;

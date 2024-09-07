@@ -1,178 +1,187 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foto Wisata</title>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
 
-}
-
-.logoheader{
-    width: 100%;
-    padding: 20px 0px;
-    margin: auto;
-    display: flex;
-    top: 0;
-    background-color: lightsteelblue;
-    background-image: url(img/bglogoheader-removebg.png);
-    background-size: 350px;
-    background-position: center;
-}
-.logoheader img{
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-    box-shadow: 5px 10px 25px 5px rgb(0, 0, 0);
-    padding: 20px 50px;
-    margin: auto;
-    width: 250px;
-    height: 100px;
-}
-
-.header {
-    width: 1100px;
-    margin: auto;
-    position: relative;
-    
-}
-
-.logo a {
-    font-size: 45px;
-    font-weight: 700;
-    float: left;
-    font-family: courier;
-    color: white;
-    text-decoration: none;
-    cursor: no-drop;
-}
-
-.menu {
-    float: right;
-}
-
-nav {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    line-height: 65px;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    background: #FFFFFF;
-    background-color: black;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;;
-}
-
-nav ul li a {
-    color: white;
-    font-weight: 600;
-    text-align: center;
-    padding: 12px 14px 12px 14px;
-    margin: 5px 5px 5px 5px;
-    text-decoration: none;
-    border-radius: 18px;
-    font-size: 15px;
-}
-nav ul li a:hover{
-    color: lightblue;
-    transition: all .3s ease-in-out;
-}
-.active{
-    background-color: lightsteelblue;
-    color: black;
-    border: #22092C solid 1px;
-}
-
-.active:hover{
-    color: black !important;
-}
-
-
-    .content {
-max-height: 700px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-overflow: auto;
-padding-bottom: 200px;
-    }
-    .content img {
-        width: 250px;
-        height: 250px; 
-        border: 1px solid black;
-        border-radius: 13px;
-        box-shadow: 4px 7px 7px 0px #00000042;
-        cursor: pointer;
-        margin: 10px;
-        margin-top: 100px;
-        transition: 400ms;
-        
-    }
-        .content img:hover {
-          filter: grayscale(1);
-          transform: scale(1.03);  
         }
-        .footer {
-    border-top: 1px solid #434343;
-    display:flex;
-    flex-direction:column; 
-    justify-content:space-between;
-    text-align: center;
-    padding: 5px;
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif
 
-  } 
-       
-        
-</style>
+        /*Header*/
+        .logoheader {
+            width: 100%;
+            padding: 20px 0px;
+            margin: auto;
+            display: flex;
+            top: 0;
+            background-color: lightsteelblue;
+            background-image: url(img/bglogoheader-removebg.png);
+            background-size: 350px;
+            background-position: center;
+        }
+
+        .logoheader img {
+            background-color: rgb(255, 255, 255);
+            border-radius: 30px;
+            box-shadow: 5px 10px 25px 5px rgb(0, 0, 0);
+            padding: 20px 50px;
+            margin: auto;
+            width: 250px;
+            height: 100px;
+        }
+
+        .header {
+            width: 1100px;
+            margin: auto;
+            position: relative;
+
+        }
+
+        .logo a {
+            font-size: 45px;
+            font-weight: 700;
+            float: left;
+            font-family: courier;
+            color: white;
+            text-decoration: none;
+            cursor: no-drop;
+        }
+
+        .menu {
+            float: right;
+        }
+
+        nav {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            line-height: 65px;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+            background: #FFFFFF;
+            background-color: black;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            float: left;
+            ;
+        }
+
+        nav ul li a {
+            color: white;
+            font-weight: 600;
+            text-align: center;
+            padding: 12px 14px 12px 14px;
+            margin: 5px 5px 5px 5px;
+            text-decoration: none;
+            border-radius: 18px;
+            font-size: 15px;
+        }
+
+        nav ul li a:hover {
+            color: lightblue;
+            transition: all .3s ease-in-out;
+        }
+
+        .active {
+            background-color: lightsteelblue;
+            color: black;
+            border: #22092C solid 1px;
+        }
+
+        .active:hover {
+            color: black !important;
+        }
+
+        /*Foto Wisata*/
+        .content {
+            max-height: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            overflow: auto;
+            padding-bottom: 200px;
+        }
+
+        .content img {
+            width: 250px;
+            height: 250px;
+            border: 1px solid black;
+            border-radius: 13px;
+            box-shadow: 4px 7px 7px 0px #00000042;
+            cursor: pointer;
+            margin: 10px;
+            margin-top: 100px;
+            transition: 400ms;
+
+        }
+
+        .content img:hover {
+            filter: grayscale(1);
+            transform: scale(1.03);
+        }
+
+        /*Footer*/
+        .footer {
+            border-top: 1px solid #434343;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            padding: 5px;
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
 </head>
+
 <body>
     <div class="logoheader">
         <img src="img/logo-removebg.png" alt="">
     </div>
-<nav>
-    <div class="header">
-        <div class="logo"><a href=''>InfoWisata</a></div>
-        <div class="menu">
-            <ul>
-                <li><a href="index.html">Beranda</a></li>
-                <li><a href="tentang.html">Tentang</a></li>
-                <li><a href="fotowisata.html" class="active">Foto Wisata</a></li>
-                <li><a href="jeniswisata.html">Jenis Wisata</a></li>
-                <li><a href="sejarahwisata.html">Sejarah</a></li>
-                <li><a href="testimoni.html">Testimoni</a></li>
-            </ul>
+    <nav>
+        <div class="header">
+            <div class="logo"><a href=''>InfoWisata</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                    <li><a href="fotowisata.html" class="active">Foto Wisata</a></li>
+                    <li><a href="jeniswisata.html">Jenis Wisata</a></li>
+                    <li><a href="sejarahwisata.html">Sejarah</a></li>
+                    <li><a href="testimoni.html">Testimoni</a></li>
+                </ul>
+            </div>
         </div>
+    </nav>
+    <div class="content">
+
+        <img src="img/bajrafoto.jpeg">
+        <img src="img/kelingkingfoto.jpeg">
+        <img src="img/ubudfoto.jpeg">
+        <img src="img/pandawafoto.jpeg">
+
     </div>
-</nav>
-<div class="content">
-    
-    <img src="img/bajrafoto.jpeg">
-    <img src="img/kelingkingfoto.jpeg">
-    <img src="img/ubudfoto.jpeg">
-    <img src="img/pandawafoto.jpeg">
-     
-</div>
-<div class="footer">
-    <p>Hak Cipta ©  2024. Kelompok 4.</p>
-</div>
+    <div class="footer">
+        <p>Hak Cipta © 2024. Kelompok 4.</p>
+    </div>
 </body>
+
 </html>
