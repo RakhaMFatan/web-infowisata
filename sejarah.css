@@ -62,6 +62,8 @@ nav {
   top: 0;
   background: #FFFFFF;
   background-color: black;
+  justify-content: unset;
+  z-index: 1;
 }
 
 nav ul {
